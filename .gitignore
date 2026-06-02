@@ -1,0 +1,16 @@
+node_modules/
+dist/
+build/
+.env
+.env.*
+!.env.example
+*.js.map
+*.d.ts
+*.tsbuildinfo
+.DS_Store
+coverage/
+.nyc_output/
+*.log
+npm-debug.log*
+.cache/
+tmp/

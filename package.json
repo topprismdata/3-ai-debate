@@ -1,0 +1,27 @@
+{
+  "name": "3-ai-debate",
+  "version": "1.0.0",
+  "description": "Multi-CLI deliberation council: claude + agy + mmx debate and synthesize. MCP server + Claude Code skill. Fork of llmcouncil.",
+  "type": "module",
+  "main": "dist/server.js",
+  "bin": {
+    "three-ai-debate": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/server.js",
+    "test": "node --test dist/test.js",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
