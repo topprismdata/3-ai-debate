@@ -1,14 +1,15 @@
 topprism:
-  purpose: native_ai
+  purpose: native-ai
   capability: multi_model_deliberation
-  platform_layer: organizational_intelligence
-  maturity: internal_utility
+  platform_layer: organizational-intelligence
+  maturity: internal-utility
   evidence:
-    type: internal_evaluation
-    notes: >-
-      Working examples and protocols present, but no rigorous external
-      benchmark showing higher decision quality yet. Internal Utility /
-      Internal Evaluation.
+    type: internal-evaluation
+    source: topprism-internal-eval
+    scope: >-
+      Working examples and protocols present; no rigorous external
+      benchmark showing higher decision quality yet.
+    status: internal-only
   provenance:
     derived_from: llmcouncil (github.com/rachittshah/llmcouncil)
     modifications: >-
@@ -25,13 +26,13 @@ business_question:
     分歧、并综合得出决策？
 
 platform:
-  system: native_ai
-  layer: organizational_intelligence
-  solution: multi_model_deliberation
+  system: native-ai
+  layer: organizational-intelligence
+  solution: multi-model-deliberation
 
 website:
-  product_path: /native-ai/3-ai-debate
-  evidence_path: /evidence/3-ai-debate
+  status: planned
+  path: /native-ai/3-ai-debate
 
 repository:
   owner: topprismdata
