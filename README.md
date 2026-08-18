@@ -9,9 +9,7 @@ employee-agent workflows.**
 > an employee agent deliberately seek independent opinions, expose
 > disagreement, and synthesize a decision?
 
-This project is derived from the `llmcouncil` idea and replaces
-API-provider integration with CLI-based providers. Preserve upstream
-attribution prominently.
+This project derives from the `llmcouncil` idea and ships CLI-based providers in place of API-based providers. Upstream attribution is preserved prominently.
 
 ------------------------------------------------------------------------
 
