@@ -4,6 +4,12 @@
 
 # 3-AI Debate
 
+> **Language / 语言:** English primary · 中文概览如下。
+>
+> ### 中文概览
+> 用于员工 Agent 工作流的多模型第二意见工具，支持结构化审议、暴露分歧并形成可复核的综合判断。
+
+
 **A multi-model second-opinion utility for structured deliberation in
 employee-agent workflows.**
 
